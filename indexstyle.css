@@ -1,0 +1,50 @@
+/*  html tag selector  */
+body {
+    background-color: #fff;
+}
+/* global class selector */
+.container-fluid {
+    padding: 0% 25%;
+}
+
+/* id selector */
+#navigation-bar {
+    background-color: rgb(43, 36, 36);
+    /* padding: 0% 13%; */ 
+}
+#top-container {
+    background-color:rgb(43, 36, 36);
+}
+#front-slideshow {
+    background-color: rgb(247, 107, 107);
+    height: 600px;
+}
+#front-picture {
+    background-color: rgb(247, 107, 107);
+}
+/*section top-container */
+#top-container img {
+    padding: 8px 16px;
+    margin: 1%;
+    width: 75px;
+}
+@media (max-width: 992px) {
+    #top-container .col-lg-3 {
+        text-align: start;
+    }
+}
+/* section navigation-bar */
+#navigation-bar input {
+    border-radius: 3px 0 0 3px;
+}
+#navigation-bar button {
+    border-radius: 0 3px 3px 0;
+}
+/* section front-picture */
+/* #front-picture img {
+    width: 75%;
+} */
+/* section front-slideshow */
+#front-slideshow {
+
+}
